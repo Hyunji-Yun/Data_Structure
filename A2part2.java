@@ -6,7 +6,7 @@ import java.util.Random;
  * This class investigates and compares the running time complexity of the implemented sorting methods with that of quick sort 
  * It does so by measuring the running time for different array sizes ranging from 10 to 1,000,000 (or higher)
  */
-public class Part2 {
+public class A2part2 {
     public static void main(String[] args) {
         int[] sizes = {10, 100, 1000, 10000, 100000, 1000000}; // Array sizes to test
         long startTime, endTime;
